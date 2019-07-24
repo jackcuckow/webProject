@@ -1,0 +1,48 @@
+html {
+    background-image: url('images/bg.png');
+    background-size: 100vw 101vh;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2vh 0px;
+}
+
+li {
+/*  float: left;*/
+    width: 10vw;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
