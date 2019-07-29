@@ -1,6 +1,7 @@
 html {
     background-image: url('images/bg.png');
     background-size: 100vw 101vh;
+    font-size: 30px;
 }
 
 * {
@@ -45,4 +46,3 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
